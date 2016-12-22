@@ -1,0 +1,32 @@
+2016-12-19 15:39:37,509 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:39:37,510 [main           ] INFO  CrmSecureTest                  - Sent HTTP GET request to query customer info
+2016-12-19 15:39:37,583 [main           ] INFO  CrmSecureTest                  - <html><body>No service was found.</body></html>
+2016-12-19 15:39:37,594 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:39:37,595 [main           ] INFO  CrmSecureTest                  - Sent HTTP GET request to query sub resource product info
+2016-12-19 15:39:37,597 [main           ] INFO  CrmSecureTest                  - <html><body>No service was found.</body></html>
+2016-12-19 15:39:37,598 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:39:37,598 [main           ] INFO  CrmSecureTest                  - Sent HTTP PUT request to update customer info
+2016-12-19 15:39:37,603 [main           ] INFO  CrmSecureTest                  - Response status code: 404
+2016-12-19 15:39:37,603 [main           ] INFO  CrmSecureTest                  - Response body: 
+2016-12-19 15:39:37,604 [main           ] INFO  CrmSecureTest                  - <html><body>No service was found.</body></html>
+2016-12-19 15:39:37,605 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:39:37,606 [main           ] INFO  CrmSecureTest                  - Sent HTTP POST request to add customer
+2016-12-19 15:39:37,614 [main           ] INFO  CrmSecureTest                  - Response status code: 404
+2016-12-19 15:39:37,615 [main           ] INFO  CrmSecureTest                  - Response body: 
+2016-12-19 15:39:37,615 [main           ] INFO  CrmSecureTest                  - <html><body>No service was found.</body></html>
+2016-12-19 15:56:10,997 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:56:10,998 [main           ] INFO  CrmSecureTest                  - Sent HTTP GET request to query customer info
+2016-12-19 15:56:11,059 [main           ] INFO  CrmSecureTest                  - <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Customer><id>123</id><name>John</name></Customer>
+2016-12-19 15:56:11,060 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:56:11,060 [main           ] INFO  CrmSecureTest                  - Sent HTTP GET request to query sub resource product info
+2016-12-19 15:56:11,072 [main           ] INFO  CrmSecureTest                  - <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Product><description>product 323</description><id>323</id></Product>
+2016-12-19 15:56:11,072 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:56:11,072 [main           ] INFO  CrmSecureTest                  - Sent HTTP PUT request to update customer info
+2016-12-19 15:56:11,144 [main           ] INFO  CrmSecureTest                  - Response status code: 200
+2016-12-19 15:56:11,144 [main           ] INFO  CrmSecureTest                  - Response body: 
+2016-12-19 15:56:11,145 [main           ] INFO  CrmSecureTest                  - 
+2016-12-19 15:56:11,145 [main           ] INFO  CrmSecureTest                  - ============================================
+2016-12-19 15:56:11,145 [main           ] INFO  CrmSecureTest                  - Sent HTTP POST request to add customer
+2016-12-19 15:56:11,157 [main           ] INFO  CrmSecureTest                  - Response status code: 200
+2016-12-19 15:56:11,157 [main           ] INFO  CrmSecureTest                  - Response body: 
+2016-12-19 15:56:11,158 [main           ] INFO  CrmSecureTest                  - <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Customer><id>124</id><name>Jack</name></Customer>

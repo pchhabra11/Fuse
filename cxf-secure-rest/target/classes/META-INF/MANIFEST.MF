@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1482388426632
+Build-Jdk: 1.8.0_111
+Built-By: pchhabra
+Bundle-Description: Secure Restful Web Services Example using JAX-RS Bas
+ ic Authentication with Fabric8
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse Quickstart: secure-rest
+Bundle-SymbolicName: org.jboss.quickstarts.fuse.cxf-secure-rest
+Bundle-Version: 6.2.1.redhat-084
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.fabric8.quickstarts.rest.secure;uses:="javax.xml.bind
+ .annotation,org.slf4j,javax.ws.rs,com.wordnik.swagger.annotations,javax
+ .ws.rs.core";version="6.2.1.redhat-084"
+Import-Package: com.fasterxml.jackson.annotation;version="[2.4,3)",com.f
+ asterxml.jackson.core;version="[2.4,3)",com.fasterxml.jackson.databind;
+ version="[2.4,3)",com.fasterxml.jackson.jaxrs.json;version="[2.4,3)",co
+ m.wordnik.swagger.annotations,com.wordnik.swagger.jaxrs.config,com.word
+ nik.swagger.jaxrs.listing,io.fabric8.cxf,io.fabric8.cxf.endpoint,javax.
+ ws.rs;version="[2.0,3)",javax.ws.rs.core;version="[2.0,3)",javax.ws.rs.
+ ext;version="[2.0,3)",javax.xml.bind.annotation,org.apache.cxf.intercep
+ tor.security,org.apache.cxf.jaxrs.security,org.apache.cxf.transport.htt
+ p,org.apache.karaf.jaas.boot.principal,org.eclipse.jetty.plus.jaas,org.
+ osgi.service.blueprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,
+ 2)"
+Import-Service: org.apache.aries.blueprint.NamespaceHandler;osgi.service
+ .blueprint.namespace=http://cxf.apache.org/transports/http/configuratio
+ n
+Tool: Bnd-1.50.0
