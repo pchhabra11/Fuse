@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="        http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd        http://camel.apache.org/schema/blueprint http://camel.apache.org/schema/blueprint/camel-blueprint.xsd">
+    <bean
+        class="com.redhat.camel.blueprint.http4.blueprintRefs.MyProcessor" id="myProcessor"/>
+    <camelContext id="camelContext-b967683e-a2ba-43de-a862-8cab7e378b7a" xmlns="http://camel.apache.org/schema/blueprint">
+        <route id="authenticationRoute">
+            <from id="_from1" uri="http4://www.google.com/search"/>
+            <process id="_process1" ref="myProcessor"/>
+            <log id="_log1" message="${body}"/>
+            <to id="_to1" uri="mock:result"/>
+        </route>
+    </camelContext>
+</blueprint>
