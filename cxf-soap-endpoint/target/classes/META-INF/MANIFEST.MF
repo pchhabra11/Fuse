@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1482388427147
+Build-Jdk: 1.8.0_111
+Built-By: pchhabra
+Bundle-ManifestVersion: 2
+Bundle-Name: cxf-soap-endpoint
+Bundle-SymbolicName: cxf-soap-endpoint
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.mycompany.cxf.soap.model;uses:="javax.xml.ws,javax.j
+ ws";version="1.0.0.SNAPSHOT"
+Import-Package: com.mycompany.cxf.soap.model,javax.jws,javax.xml.ws,org.
+ apache.log4j;version="[1.2,2)",org.osgi.service.blueprint;version="[1.0
+ .0,2.0.0)"
+Tool: Bnd-1.50.0
