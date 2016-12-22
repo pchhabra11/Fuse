@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1482388423501
+Build-Jdk: 1.8.0_111
+Built-By: pchhabra
+Bundle-Description: Camel using mutliple EIPs into a single solution
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse Quickstart: camel-eips
+Bundle-SymbolicName: org.jboss.quickstarts.fuse.beginner-camel-eips
+Bundle-Version: 6.2.1.redhat-084
+Created-By: Apache Maven Bundle Plugin
+Export-Package: io.fabric8.quickstarts.eip;uses:="org.apache.camel.langu
+ age";version="6.2.1.redhat-084"
+Import-Package: org.apache.camel.language;version="[2.15,3)",org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0

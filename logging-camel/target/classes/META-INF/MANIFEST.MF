@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1482388422491
+Build-Jdk: 1.8.0_111
+Built-By: pchhabra
+Bundle-Description: Camel Log Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: JBoss Fuse Quickstart: camel-log
+Bundle-SymbolicName: org.jboss.quickstarts.fuse.beginner-camel-log
+Bundle-Version: 6.2.1.redhat-084
+Created-By: Apache Maven Bundle Plugin
+Import-Package: org.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0
